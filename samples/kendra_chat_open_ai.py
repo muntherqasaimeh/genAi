@@ -10,7 +10,7 @@ MAX_HISTORY_LENGTH = 5
 def build_chain():
   region = os.environ["AWS_REGION"] = 'us-east-1'
   kendra_index_id = os.environ["KENDRA_INDEX_ID"]= '3e73ba2e-c638-4355-8391-23858cdc8b3d'
-  os.environ['OPENAI_API_KEY'] = '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'
+  os.environ['OPENAI_API_KEY'] = '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'
   os.environ['KENDRA_INDEX_ID'] = '3e73ba2e-c638-4355-8391-23858cdc8b3d'
   os.environ['AWS_REGION'] = 'us-east-1'
   os.environ['AWS_ACCESS_KEY_ID'] = 'AKIASUGIU5BWEW3NJEVA'
